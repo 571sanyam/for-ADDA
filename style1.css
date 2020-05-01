@@ -1,0 +1,99 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5AB);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+
+}
+
+.header{
+    padding: 5em;
+
+}
+
+.content{
+    color:black;
+    grid-template-columns:auto ; 
+    
+    display: grid;
+}
+.item1{
+    
+    font-size: 2.3em;
+    background: linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5AB);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+    
+    text-align: center;
+    padding: 0.5em 0.5em;
+    box-sizing: border-box;
+    display: block;
+}
+.item2{
+    grid-row-start: 2;
+    grid-row-end: 5;
+    font-size: x-large;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+}
+.image{
+    grid-row-start: 1;
+    grid-row-end: 5;
+    position: relative;
+    display: block;
+    max-width: 100%;
+    float: right;
+}
+
+.footer
+{
+    
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5em;
+    
+}
+.text{
+    background: linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5AB);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+    display: inline-block;
+    border-radius: 2px;
+
+}
+.footer a{
+    background: linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5AB);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+    border-radius: 2px;
+    color: black;
+    font-size: x-large;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    padding: 3em;
+}
+.social{
+    width: 32px;
+    height: 32px;
+}
