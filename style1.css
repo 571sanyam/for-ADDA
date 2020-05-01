@@ -97,3 +97,12 @@ body {
     width: 32px;
     height: 32px;
 }
+@media (max-width:800px){
+.content{
+    color:black;
+   
+    flex-direction: column;
+    
+    display: flex;
+}
+}

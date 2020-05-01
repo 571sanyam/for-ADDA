@@ -223,3 +223,74 @@ top: 1em;
 .me:hover{
     box-shadow: 0px 8px 16px 0px black;
 }
+@media (max-width:800px)
+{
+    .lovedeep {
+        margin-bottom: 3em;
+        margin: 0 auto;
+       margin-top: 3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color:whitesmoke;
+    } 
+    .friends{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: whitesmoke;
+    
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+      
+      
+        color: black;
+        margin: 0 auto;
+       
+       
+    
+    }
+    .image {
+
+        text-align: center;
+        
+        margin: 0 auto;
+        margin-bottom: 3em;
+       width: 80%;
+        border-style: solid;
+        border-color:khaki;
+        border-radius: 5px;
+        color: black;
+        background-color: tomato;
+       
+    }
+    .aayush{
+        text-align: center;
+        
+        margin: 0 auto;
+        margin-bottom: 1em;
+        width: 80%;
+        border-style: solid;
+        border-color: khaki;
+        border-radius: 5px;
+        color: black;
+        background-color: tomato;
+    
+    }
+    .me{
+        text-align: center;
+        
+        margin: 0 auto;
+        margin-bottom: 1em;
+        width: 80%;
+        border-style: solid;
+        border-color: khaki;
+        border-radius: 5px;
+        color: black;
+       background-color: tomato;
+       
+       
+    }
+}
